@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="log_output" default="screen"/>
+  <node pkg="kill_switch" type="kill_switch_node" name="kill_switch" required="true" clear_params="true" output="$(arg log_output)" launch-prefix="sudo -E" />
+</launch>
