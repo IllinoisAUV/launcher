@@ -15,5 +15,4 @@
   <include file="$(find launcher)/launch/kill_switch.launch" />
   <include file="$(find launcher)/launch/automation.launch" />
   <include file="$(find launcher)/launch/mission.launch" />
-  <include file="$(find launcher)/launch/vision.launch" />
 </launch>
